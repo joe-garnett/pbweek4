@@ -5,3 +5,11 @@
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.jumbotron{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfGJ-c4XyDkjk4_GG-VzH1UjhGTExc_qSEMg&s');
+  background-position: center; 
+  color: #fff; 
+  position: relative;
+  padding: 4rem 2rem; 
+}
