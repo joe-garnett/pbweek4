@@ -10,6 +10,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous"
     />
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/882/882998.png">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-dark border-bottom sticky-top border-body" data-bs-theme="dark">
@@ -49,7 +51,7 @@
     <p class="lead">Artificial Intelligence is reshaping the way we understand and detect cancer. With advanced algorithms analyzing vast datasets, AI can identify early warning signs faster and with greater accuracy than ever before, giving hope for early intervention and improved patient outcomes.</p>
     <hr class="my-4" style="border-color: #f8f9fa;">
     <p>Through deep learning models and image recognition, AI enables medical professionals to process and interpret complex medical images, genetic information, and patient histories in seconds. By harnessing the power of AI, we can make strides toward more personalized and effective treatment plans for cancer patients worldwide.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Read Articles Here</a>
+    <a class="btn btn-primary btn-lg" href="https://www.nature.com/articles/s41568-024-00694-7" role="button">Read Articles Here</a>
   </div>
 </div>
 
@@ -57,6 +59,7 @@
 <div class="container mt-5">
   <div class="row">
       <div class="col-md-7">
+          <h1><strong>AI Today</strong></h1>
           <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
@@ -94,7 +97,7 @@
                       </div>
                   </div>
               </div>
-              <div class="accordion-item">
+              <div class="accordion-item border border-2 border-dark rounded">
                   <h2 class="accordion-header" id="headingFour">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Future Trends in AI and Cancer Detection
@@ -110,15 +113,56 @@
       </div>
       
       <div class="col-md-5">
-          <h2>Additional Information</h2>
+          <h2><strong>Additional Information</strong></h2>
           <p>
             As we delve into the promising intersection of artificial intelligence and oncology, it becomes clear that AI is not just a technological advancement; it is a transformative force in the realm of cancer detection and treatment. With the ability to analyze vast amounts of data quickly and accurately, AI algorithms can uncover patterns and insights that enhance our understanding of cancer progression. This not only aids in early diagnosis but also facilitates the development of personalized treatment strategies tailored to individual patient needs. The ongoing integration of AI technologies in healthcare represents a significant step forward, paving the way for more effective interventions and ultimately improving patient outcomes. As we continue to harness the power of AI, we are not only advancing medical science but also offering hope to millions affected by cancer worldwide.
           </p>
       </div>
   </div>
 </div>
-<footer class="bg-dark text-white text-center py-3">
-  <p>Created by Adam Badji</p>
+
+<div class="row">
+  <div class="col d-flex justify-content-center align-items-center pt-3">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">
+      Sign Up for our Newsletter
+    </button>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="signupModalLabel">Sign Up for More News</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign Up</button>
+              </form>
+          </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<footer class="bg-dark text-white text-center py-1">
+  <p><small>Created by Adam Badji</small></p>
 </footer>
 
 
